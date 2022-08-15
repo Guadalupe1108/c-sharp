@@ -37,7 +37,6 @@ namespace inventario
                     } else {
                         productos[i, 2] = (Int32.Parse(productos[i, 2]) - cantidad).ToString();
                     }
-                }
             }
         }
 
