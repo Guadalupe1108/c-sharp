@@ -15,7 +15,7 @@ namespace propiedades
             b.PrimerNombre = "Maria";
             b.SegundoNombre = "Martinez";
 
-            Alumno c = new Alumno(); 
+            Alumno c = new Alumno(3); 
             c.PrimerNombre = "Pedro";
 
             Alumno d = new Alumno("Juan", "Jimenez"); 
