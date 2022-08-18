@@ -38,25 +38,25 @@ public class DatosdePrueba
 
     private void cargarClientes()
     {
-        Cliente c1 = new Cliente(1, " Juan Ruiz ", "98834399");
+        Cliente c1 = new Cliente(1, "Leyla de León", "98834399");
         ListadeClientes.Add(c1);
 
-        Cliente c2 = new Cliente(2, "Pedro Lopez ", "97550354");
+        Cliente c2 = new Cliente(2, "Guillermo Pineda", "97550354");
         ListadeClientes.Add(c2);
 
-        Cliente c3 = new Cliente(3, "Carol Garcia", "99568200");
+        Cliente c3 = new Cliente(3, "Bily Fernández", "99568200");
         ListadeClientes.Add(c3);
     }
 
     private void cargarVendedores()
     {
-        Vendedor v1 = new Vendedor(1, "Jose Rodriguez", "V001");
+        Vendedor v1 = new Vendedor(1, "Eric Clapton", "V001");
         ListadeVendedores.Add(v1);
 
-        Vendedor v2 = new Vendedor(2, "Pablo Caballero", "V002");
+        Vendedor v2 = new Vendedor(2, "Elton John", "V002");
         ListadeVendedores.Add(v2);
 
-        Vendedor v3 = new Vendedor(3, "Cristiano Ronaldo", "V003");
+        Vendedor v3 = new Vendedor(3, "Guadalupe Aguilar", "V003");
         ListadeVendedores.Add(v3);
     }
 
@@ -160,7 +160,7 @@ public class DatosdePrueba
 
             Console.WriteLine("Desea continuar? s/n");
             string continuar = Console.ReadLine();
-            if (continuar.ToLower() == "n") {
+            if (continuar.ToLower() == "s") {
                 break;
             }
         }
