@@ -42,25 +42,25 @@ public class ProyectoFinal
     public void cargarPostres()
     {
         
-        Postres p01 = new Postres(1,"Postre Mexicano                ",  250);
+        Postres p01 = new Postres(1,"Tres Leches                    ",  70);
         ListadePostres.Add(p01);
 
         Postres p02 = new Postres(2,"Envinado Francés               ",  300);
         ListadePostres.Add(p02);
 
-        Postres p03 = new Postres(3,"Tres Leches                    ",  180);
+        Postres p03 = new Postres(3,"Cheese Cake                    ",  320);
         ListadePostres.Add(p03);
 
-        Postres p04 = new Postres(4,"Mokaccino                      ",  200);
+        Postres p04 = new Postres(4,"Choco Flan                     ",  80);
         ListadePostres.Add(p04);
 
-        Postres p05 = new Postres(5,"Dos estaciones                 ",   360);
+        Postres p05 = new Postres(5,"Dos estaciones                 ",  360);
         ListadePostres.Add(p05);
 
-        Postres p06 = new Postres(6,"Suspiro de Caramel y Chocolate ",   955);
+        Postres p06 = new Postres(6,"Crepas                         ",  210);
         ListadePostres.Add(p06);
 
-        Postres p07 = new Postres(7,"Dolce Caramelo                 ",   250);
+        Postres p07 = new Postres(7,"Rolles de Canela               ",  250);
         ListadePostres.Add(p07);
 
 
@@ -183,7 +183,7 @@ public class ProyectoFinal
 
         while(true)
         {
-            Console.WriteLine("Ingrese nombre del postre: ");
+            Console.WriteLine("Ingrese el código del postre: ");
             string codigoPostres = Console.ReadLine();
             Postres postres = ListadePostres.Find(p => p.Codigo.ToString() == codigoPostres);        
             if (postres == null)

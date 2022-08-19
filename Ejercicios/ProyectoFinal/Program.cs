@@ -12,10 +12,11 @@ namespace SistemaPos
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("     POS-Dispositivo de uso comercial    ");
+                Console.WriteLine("           POS-Terminal de venta    ");
                 Console.WriteLine("");
-                Console.WriteLine("       Reposteria y Pasteleria Malu              ");
-                Console.WriteLine("*****************************************");
+                Console.WriteLine("*********************************************");
+                Console.WriteLine("*       Reposteria y Pasteleria Malu        *         ");
+                Console.WriteLine("*********************************************");
                 Console.WriteLine("");
                 Console.WriteLine("A continuación, elija una opción:");                
                 Console.WriteLine("");
