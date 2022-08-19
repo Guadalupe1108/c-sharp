@@ -15,7 +15,7 @@ public class Perro: Mamifero // <- Herencia
 
     public void Ladrar() // <- Abstraccion
     {
-        Console.WriteLine("Gua gua gua");
+        Console.WriteLine("Guau guau guau");
     }
 
     public void Tamano()
